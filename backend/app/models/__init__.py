@@ -1,5 +1,4 @@
-from .user import User
-from .news import News
-from .comment import Comment
+from .category import Category
+from .product import Product
 
-__all__ = ["News", "User", "Comment"]
+__all__ = ["Category", "Product"]
