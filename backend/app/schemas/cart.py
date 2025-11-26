@@ -8,7 +8,7 @@ class CattItemBase(BaseModel):
                           description="Quantity (must be greater than 0)")
 
 
-class CattItemCreate(CattItemBase):
+class CartItemCreate(CattItemBase):
     pass
 
 class CattItemUpdate(BaseModel):
