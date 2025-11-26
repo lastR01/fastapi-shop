@@ -2,7 +2,7 @@ from itertools import product
 
 from sqlalchemy.orm import Session
 from ..repositories.product_repository import ProductRepository
-from ..schemas.cart import CartResponse, CartItem, CartItemCreate, CattItemUpdate
+from ..schemas.cart import CartResponse, CartItem, CartItemCreate
 from fastapi import HTTPException, status
 
 class CartService:

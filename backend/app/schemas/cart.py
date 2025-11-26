@@ -11,7 +11,7 @@ class CattItemBase(BaseModel):
 class CartItemCreate(CattItemBase):
     pass
 
-class CattItemUpdate(BaseModel):
+class CartItemUpdate(BaseModel):
     product_id: int = Field(..., description="Product ID")
     quantity: int = Field(..., gt=0,
                           description="Quantity (must be greater than 0)")
