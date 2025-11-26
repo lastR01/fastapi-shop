@@ -15,4 +15,4 @@ class CategoryResponse(CategoryBase):
     id: int = Field(..., description="Unique category ID")
 
     class Config:
-        form_attributes = True
+        from_attributes = True
