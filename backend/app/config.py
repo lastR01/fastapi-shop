@@ -4,7 +4,7 @@ class Settings(BaseSettings):
     app_name: str = "FastAPI-Shop"
     debug: bool = True
     # database_url: str = "sqlite:///./shop.db"
-    database_url: str = "postgresql+psycopg://postgres:radik4458@localhost:5432/fastapi_shop"
+    database_url: str = "postgresql+psycopg2://postgres:radik4458@localhost:5432/fastapi_database"
     cors_origins: list = [
         "http://localhost:5173",
         "http://localhost:3000",
